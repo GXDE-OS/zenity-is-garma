@@ -18,5 +18,8 @@ Depends:
 Recommends: 
  dpkg,
  packagekit
+Provides: zenity(=3.44.0-1)
+Conflicts: zenity
+Replaces: zenity(=3.44.0-1)
 Description: Forwarding zenity command to garma
 
