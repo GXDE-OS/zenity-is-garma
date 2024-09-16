@@ -1,0 +1,6 @@
+zenity-is-garma (3.44.0-1) UNRELEASED; urgency=medium
+
+  * forwarding zenity to garma.
+
+ -- shenmo <shenmo@spark-app.store>  Thu, 29 Aug 2024 08:20:31 +0800
+

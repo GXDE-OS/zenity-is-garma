@@ -1,0 +1,22 @@
+Source: zenity-is-garma
+Section: utils
+Priority: optional
+Maintainer: shenmo <jifengshenmo@outlook.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://gitee.com/GXDE-OS/zenity-is-garma
+
+Package: zenity-is-garma
+Architecture: all
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ garma,
+ bash
+Recommends: 
+ dpkg,
+ packagekit
+Description: Forwarding zenity command to garma
+
