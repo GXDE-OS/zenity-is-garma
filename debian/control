@@ -18,8 +18,8 @@ Depends:
 Recommends: 
  dpkg,
  packagekit
-Provides: zenity(=$(DEB_VERSION_UPSTREAM))
+Provides: zenity
 Conflicts: zenity
-Replaces: zenity(=$(DEB_VERSION_UPSTREAM))
+Replaces: zenity
 Description: Forwarding zenity command to garma
 
