@@ -18,7 +18,7 @@ Depends:
 Recommends: 
  dpkg,
  packagekit
-Provides: zenity=${source:Version}
+Provides: zenity(=${source:Version})
 Conflicts: zenity
 Replaces: zenity
 Description: Forwarding zenity command to garma
